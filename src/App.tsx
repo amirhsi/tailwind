@@ -1,6 +1,7 @@
 import { ThemeProvider } from "./contexts/themeContext";
 import ThemeSwitcher from "./components/themeSwitcher";
 import UserInfo from "./components/userInfo";
+import Button from "./components/atoms/Button";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
           <ThemeSwitcher />
           <UserInfo />
         </div>
+        <Button additionalClasses="bg-gray-200">Click</Button>
       </div>
     </ThemeProvider>
   );
