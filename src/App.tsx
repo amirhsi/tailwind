@@ -11,7 +11,7 @@ function App() {
           <ThemeSwitcher />
           <UserInfo />
         </div>
-        <Button additionalClasses="bg-gray-200">Click</Button>
+        <Button btnType="error">Click</Button>
       </div>
     </ThemeProvider>
   );

@@ -19,6 +19,24 @@ export default {
         "color-light": "#000",
         "color-dark": "#FF33D4",
       },
+      colors: {
+        error: {
+          DEFAULT: "#FF0000",
+          hover: "#CC0000",
+        },
+        success: {
+          DEFAULT: "#008000",
+          hover: "#006400",
+        },
+        warning: {
+          DEFAULT: "#FFFF00",
+          hover: "#CCCC00",
+        },
+        blue: {
+          DEFAULT: "#0000FF",
+          hover: "#0000CC",
+        },
+      },
     },
   },
   safelist: [
